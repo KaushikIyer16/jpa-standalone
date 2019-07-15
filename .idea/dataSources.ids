@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - repl@localhost" uuid="5b71899f-e6e3-4010-8784-ed2f67c4f84d">
+    <database-info product="PostgreSQL" version="11.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.5">
+      <database id="1" name="repl"/>
+      <schema id="2" parent="1" name="public">
+        <object-id>2200</object-id>
+        <comment>standard public schema</comment>
+      </schema>
+      <schema id="3" parent="1" name="pg_catalog">
+        <object-id>11</object-id>
+        <comment>system catalog schema</comment>
+      </schema>
+      <sequence id="4" parent="2" name="bid_id_seq">
+        <object-id>16444</object-id>
+        <state-number>587</state-number>
+      </sequence>
+      <sequence id="5" parent="2" name="project_id_seq">
+        <object-id>16459</object-id>
+        <state-number>591</state-number>
+      </sequence>
+      <sequence id="6" parent="2" name="rating_id_seq">
+        <object-id>16501</object-id>
+        <state-number>619</state-number>
+      </sequence>
+      <table id="7" parent="2" name="bid">
+        <object-id>16446</object-id>
+        <state-number>613</state-number>
+      </table>
+      <table id="8" parent="2" name="customer">
+        <object-id>16453</object-id>
+        <state-number>602</state-number>
+      </table>
+      <table id="9" parent="2" name="project">
+        <object-id>16461</object-id>
+        <state-number>658</state-number>
+      </table>
+      <table id="10" parent="2" name="rating">
+        <object-id>16503</object-id>
+        <state-number>619</state-number>
+      </table>
+      <table id="11" parent="2" name="reseller">
+        <object-id>16468</object-id>
+        <state-number>601</state-number>
+      </table>
+      <table id="12" parent="2" name="sample">
+        <object-id>24580</object-id>
+        <state-number>677</state-number>
+      </table>
+    </database-model>
+  </data-source>
+</component>
